@@ -1,0 +1,27 @@
+{
+  "name": "freelancers-app",
+  "version": "1.0.0",
+  "description": "An app to help freelancers get and manage their income",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/index.scss css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adezayn/finance-freelancers-app.git"
+  },
+  "keywords": [
+    "fintech",
+    "finance",
+    "freelancers"
+  ],
+  "author": "Dolapo Adebanjo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adezayn/finance-freelancers-app/issues"
+  },
+  "homepage": "https://github.com/Adezayn/finance-freelancers-app#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
